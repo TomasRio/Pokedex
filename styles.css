@@ -193,3 +193,189 @@ form button:hover {
     margin-left: 50%;
     transform: translateX(-50%);
 }
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    
+    form {
+        margin: 15px auto;
+    }
+    
+    .search-container {
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+    
+    input {
+        padding: 8px;
+        font-size: 14px;
+    }
+    
+    select {
+        padding: 8px;
+        font-size: 14px;
+        min-width: 120px;
+    }
+    
+    form button {
+        padding: 8px 15px;
+        font-size: 12px;
+        flex: 1;
+    }
+    
+    .poke-card {
+        max-width: 100%;
+        padding: 8px;
+    }
+    
+    .poke-card::before {
+        left: 8px;
+        top: 8px;
+    }
+    
+    .img-container {
+        width: 150px;
+        margin: 8px auto;
+    }
+    
+    .poke-img {
+        width: 150px;
+    }
+    
+    .poke-stats div {
+        font-size: 14px;
+        padding: 3px;
+    }
+    
+    .poke-types div {
+        font-size: 12px;
+        padding: 3px;
+        margin: 3px;
+    }
+    
+    .add-btn {
+        width: 100%;
+        padding: 10px;
+        margin-top: 8px;
+    }
+    
+    .my-list-section {
+        margin-top: 30px;
+        max-width: 100%;
+        padding: 0 10px;
+    }
+    
+    .my-list-section h2 {
+        font-size: 18px;
+        padding: 8px 15px;
+        margin-bottom: 15px;
+    }
+    
+    .my-list-cards {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+        gap: 10px;
+        padding: 10px;
+    }
+    
+    .my-list-cards .card {
+        padding: 8px;
+    }
+    
+    .my-list-cards .card img {
+        height: 100px;
+        margin-bottom: 6px;
+    }
+    
+    .my-list-cards .card h3 {
+        font-size: 12px;
+        margin: 4px 0;
+    }
+    
+    .my-list-cards .card .remove {
+        padding: 4px 8px;
+        font-size: 11px;
+        margin-top: 6px;
+    }
+    
+    .my-list-cards p {
+        padding: 12px 15px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 8px;
+    }
+    
+    .search-container {
+        flex-direction: column;
+    }
+    
+    select {
+        width: 100%;
+    }
+    
+    input {
+        width: 100%;
+    }
+    
+    form button {
+        width: 100%;
+    }
+    
+    .poke-card {
+        padding: 6px;
+    }
+    
+    .img-container {
+        width: 120px;
+        margin: 6px auto;
+    }
+    
+    .poke-img {
+        width: 120px;
+    }
+    
+    .poke-stats div {
+        font-size: 12px;
+        padding: 2px;
+    }
+    
+    .my-list-section h2 {
+        font-size: 16px;
+        padding: 6px 10px;
+    }
+    
+    .my-list-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+        padding: 8px;
+    }
+    
+    .my-list-cards .card {
+        padding: 6px;
+    }
+    
+    .my-list-cards .card img {
+        height: 80px;
+        margin-bottom: 4px;
+    }
+    
+    .my-list-cards .card h3 {
+        font-size: 11px;
+        margin: 3px 0;
+    }
+    
+    .my-list-cards .card p {
+        font-size: 10px;
+    }
+    
+    .my-list-cards .card .remove {
+        padding: 3px 6px;
+        font-size: 10px;
+        margin-top: 4px;
+    }
+}

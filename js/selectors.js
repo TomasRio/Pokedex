@@ -1,0 +1,13 @@
+export const pokeCard = document.querySelector('[data-poke-card]');
+export const pokeName = document.querySelector('[data-poke-name]');
+export const pokeImg = document.querySelector('[data-poke-img]');
+export const pokeImgContainer = document.querySelector('[data-poke-img-container]');
+export const pokeId = document.querySelector('[data-poke-id]');
+export const pokeTypes = document.querySelector('[data-poke-types]');
+export const pokeStats = document.querySelector('[data-poke-stats]');
+export const addToListBtn = document.querySelector('#addToListBtn');
+export const myListCards = document.querySelector('[data-my-list]');
+export const playCryBtn = document.querySelector('#playCryBtn');
+export const searchTypeSelect = document.querySelector('#searchType');
+export const pokemonInput = document.querySelector('#pokemonInput');
+export const suggestionsEl = document.querySelector('#suggestions');
